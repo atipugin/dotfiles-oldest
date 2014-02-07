@@ -31,3 +31,4 @@ if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 # --------------------------------------
 
 eval "$(direnv hook $0)"
+source "`brew --prefix`/etc/grc.bashrc"
