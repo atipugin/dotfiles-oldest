@@ -9,8 +9,6 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 plugins=(git brew bundler cap gem rails sublime)
 
-alias zshconfig="subl ~/.zshrc"
-
 source $ZSH/oh-my-zsh.sh
 
 # Exports
@@ -18,9 +16,14 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 export CDPATH=$HOME/Code:$CDPATH
-export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 
 export EDITOR="subl"
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+
+# Aliases
+# --------------------------------------
+
+alias zshconfig="subl ~/.zshrc"
 
 # Ruby/rbenv/etc
 # --------------------------------------
