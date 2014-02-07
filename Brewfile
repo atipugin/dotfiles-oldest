@@ -16,6 +16,7 @@ install mysql
 install node
 install npm
 install postgresql
+install pow
 install rbenv
 install rcm
 install redis
