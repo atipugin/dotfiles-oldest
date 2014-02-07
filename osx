@@ -1,0 +1,31 @@
+# ==============================================================================
+# .osx
+# ==============================================================================
+
+# System-wide stuff
+# ---------------------------------------
+
+defaults write com.apple.LaunchServices LSQuarantine -bool false
+defaults write com.apple.loginwindow TALLogoutSavesState 0
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+
+# Finder
+# ---------------------------------------
+
+defaults write com.apple.finder QLEnableTextSelection -bool true
+defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.frameworks.diskimages skip-verify true
+
+chflags nohidden $HOME/Library
+
+# Time Machine
+# ---------------------------------------
+
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+# Restart affected apps
+# ---------------------------------------
+
+for app in "Finder"; do
+  killall $app >/dev/null
+done
