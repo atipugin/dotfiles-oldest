@@ -25,3 +25,8 @@ export EDITOR="subl"
 # --------------------------------------
 
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
+
+# Misc
+# --------------------------------------
+
+eval "$(direnv hook $0)"
