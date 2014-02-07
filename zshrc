@@ -14,8 +14,8 @@ source $ZSH/oh-my-zsh.sh
 # Exports
 # --------------------------------------
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 export CDPATH=$HOME/Code:$CDPATH
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 
 export EDITOR="subl"
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
@@ -23,8 +23,8 @@ export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 # Aliases
 # --------------------------------------
 
-alias zshconfig="subl ~/.zshrc"
 alias fs="foreman start"
+alias zshconfig="subl ~/.zshrc"
 
 # Ruby/rbenv/etc
 # --------------------------------------
