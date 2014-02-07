@@ -12,6 +12,7 @@ install direnv
 install git
 install grc
 install imagemagick
+install mackup
 install memcached
 install mongodb
 install mysql
