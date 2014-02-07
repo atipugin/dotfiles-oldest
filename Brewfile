@@ -10,11 +10,13 @@ install curl-ca-bundle
 install direnv
 install git
 install grc
+install imagemagick
 install memcached
 install mongodb
 install mysql
 install node
 install npm
+install ntfs-3g
 install postgresql
 install pow
 install rbenv
