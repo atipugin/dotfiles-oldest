@@ -20,3 +20,8 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 export CDPATH=$HOME/Code:$CDPATH
 
 export EDITOR="subl"
+
+# Ruby/rbenv/etc
+# --------------------------------------
+
+if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
