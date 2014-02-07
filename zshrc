@@ -18,6 +18,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 export CDPATH=$HOME/Code:$CDPATH
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 
 export EDITOR="subl"
 

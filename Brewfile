@@ -5,6 +5,7 @@ tap phinze/cask
 tap thoughtbot/formulae
 
 install brew-cask
+install curl-ca-bundle
 install direnv
 install mysql
 install node
