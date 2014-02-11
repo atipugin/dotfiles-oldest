@@ -24,7 +24,7 @@ export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 # --------------------------------------
 
 alias fs="foreman start"
-alias zshconfig="subl ~/.zshrc"
+alias zshconfig="$EDITOR ~/.zshrc"
 
 # Ruby/rbenv/etc
 # --------------------------------------
