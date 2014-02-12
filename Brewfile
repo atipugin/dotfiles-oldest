@@ -35,6 +35,7 @@ cask install caffeine
 cask install dropbox
 cask install evernote
 cask install f-lux
+cask install flash
 cask install google-chrome
 cask install instacast
 cask install iterm2
